@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <!-- Css files -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Contact us Navbar -->
+    <div class="navbar-wrapper">
+      <div class="map-bg"></div>
+      <nav class="navbar">
+        <span class="navbar-toggle" id="js-navbar-toggle">
+          <img src="./assets/img/menu-btn.png" alt="menu-btn" />
+        </span>
+        <a href="#" class="logo">LOGO</a>
+        <ul class="main-nav" id="js-menu">
+          <li>
+            <a href="#" class="nav-links">PROJECTS</a>
+          </li>
+          <li>
+            <a href="#" class="nav-links">ABOUT</a>
+          </li>
+          <li>
+            <a href="#" class="nav-links">NRI AREA</a>
+          </li>
+          <li>
+            <a href="#" class="nav-links">NEWS & THOUGHTS</a>
+          </li>
+          <li>
+            <a href="#" class="nav-links active">CONTACT</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <!-- Content part -->
+    <div class="main-wrapper-box some-page-wrapper">
+      <div class="row">
+        <div class="column">
+          <!-- Contact us left container -->
+          <div class="contact-us-left-box">
+            <h1>Contact Us</h1>
+            <p>
+              When we aren’t changing landscapes,<br />we’re making headlines.
+            </p>
+          </div>
+          <!--ends-->
+        </div>
+        <div class="column">
+          <!-- Map right container -->
+          <div class="map-right-box">
+            <span class="contact-heading-txt"
+              >Lorem ipsum dolor sit amet - consetetur sadipscing elitr</span
+            >
+            <img
+              src="./assets/img/locate-map-small.png"
+              alt="locate-map-small"
+              class="locate-map-small"
+            />
+          </div>
+          <!-- ends -->
+        </div>
+      </div>
+      <!-- Second row  -->
+      <div class="row">
+        <div class="column">
+          <!-- Form section -->
+          <div class="contact-us-form-box">
+            <p>Send us an Enquiry</p>
+          </div>
+          <div class="contact-us-form-input">
+            <input type="text" placeholder="Name" />
+            <input type="text" placeholder="Email Address" />
+            <input type="text" placeholder="Mobile Number" />
+            <span class="input-option" id="input-option">
+              <div class="dropdown">
+                <button></button>
+
+                <div class="options">
+                  <input
+                    id="radio-africa"
+                    type="radio"
+                    name="region"
+                    value="africa"
+                    checked
+                  />
+                  <label style="--index: 1" for="radio-africa">Carrer</label>
+
+                  <input
+                    id="radio-asia"
+                    type="radio"
+                    name="region"
+                    value="asia"
+                  />
+                  <label
+                    style="--index: 2; background-color: #fafafa"
+                    class="asiaa"
+                    for="radio-asia"
+                    onclick="myFunction()"
+                    >Projects</label
+                  >
+
+                  <input
+                    id="radio-australia"
+                    type="radio"
+                    name="region"
+                    value="australia"
+                  />
+                  <label
+                    style="--index: 3; background-color: #fafafa"
+                    for="radio-australia"
+                    >Media</label
+                  >
+
+                  <input
+                    id="radio-europe"
+                    type="radio"
+                    name="region"
+                    value="europe"
+                  />
+                  <label style="--index: 4" for="radio-europe"
+                    >Query Type</label
+                  >
+                </div>
+
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16.341"
+                  height="12"
+                  viewBox="0 0 16.341 12"
+                >
+                  <defs>
+                    <style>
+                      .a {
+                        fill: #3971b1;
+                      }
+                    </style>
+                  </defs>
+                  <path class="a" d="M8.077,12,16.341,0H0Z" />
+                </svg>
+              </div>
+              <div id="add_message"></div>
+            </span>
+
+            <!-- <datalist id="languages">
+              <option value="Projects"></option>
+              <option value="Media"></option>
+              <option value="Career"></option>
+            </datalist> -->
+
+            <input type="submit" value="Send" class="send-btn" />
+          </div>
+          <!-- ends -->
+          <div class="divider-line"></div>
+        </div>
+        <div class="column">
+          <!-- enquiry section -->
+          <div class="enquiry-section">
+            <p>
+              Lorem ipsum dolor sit amet,<br />consetetur sadipscing elitr,
+              sed<br />diam nonumy.
+            </p>
+            <span>+91 000 0000 000 | test1@gmail.com | test2@gmail.com</span>
+          </div>
+
+          <div class="common-enquiry-box">
+            <p>Sales Enquiry</p>
+            <span>+91 000 0000 000<br />test1@gmail.com</span>
+          </div>
+          <div class="common-enquiry-box last-box">
+            <p>Redevelopment Centre</p>
+            <span>+91 000 0000 000<br />test2@gmail.com</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Mobile wrapper -->
+    <div class="mobile-wrapper" id="mobile-wrapper">
+      <div class="row">
+        <div class="column">
+          <img
+            src="./assets/img/locate-map-small.png"
+            alt="locate-map-small"
+            class="locate-map-small"
+          />
+          <!-- enquiry section -->
+          <div class="enquiry-section">
+            <p>
+              Lorem ipsum dolor sit amet,<br />consetetur sadipscing elitr,
+              sed<br />diam nonumy.
+            </p>
+            <span
+              >+91 000 0000 000 |<br />
+              test1@gmail.com | test2@gmail.com</span
+            >
+          </div>
+          <div class="send-us-enquiry-box">
+            <button id="enquiry-btn" onclick="openForm()">
+              Send us an Enquiry
+            </button>
+          </div>
+          <div class="common-enquiry-box">
+            <p>Sales Enquiry</p>
+            <div class="common-para">
+              <p>Phone</p>
+              <p>+91 000 0000 000</p>
+            </div>
+            <div class="common-para">
+              <p>Email</p>
+              <p>test2@gmail.com</p>
+            </div>
+          </div>
+          <div class="common-enquiry-box last-box">
+            <p>Redevelopment Centre</p>
+            <div class="common-para">
+              <p>Phone</p>
+              <p>+91 000 0000 000</p>
+            </div>
+            <div class="common-para">
+              <p>Email</p>
+              <p>test2@gmail.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ends -->
+
+    <div class="mobile-footer" id="mobile-footer">
+      <div class="footer-wrapper">
+        <div class="latest-news-section">
+          <p>Get the latest news</p>
+          <input type="text" placeholder="Enter email" />
+          <button>Subscribe</button>
+        </div>
+
+        <div class="footer-link-section">
+          <ul>
+            <li>Projects</li>
+            <li>NRI Area</li>
+            <li>Employee Corner</li>
+            <li>News & Thoughts</li>
+          </ul>
+          <ul>
+            <li>About</li>
+            <li>News & Thoughts</li>
+            <li>Contact</li>
+            <li>Disclaimer</li>
+          </ul>
+        </div>
+        <div class="footer-logo-section">
+          <a href="#" class="logo">LOGO</a>
+        </div>
+        <div class="footer-divider-section">
+          <span class="footer-divider"></span>
+        </div>
+        <div class="footer-bottom-section">
+          <p>An ISO 9001:2008 Certified Company</p>
+
+          <img
+            src="./assets/img/social-icon.png"
+            alt="social-icon"
+            class="social-icon"
+          />
+          <p>© copyrights 2019</p>
+        </div>
+      </div>
+    </div>
+    <!-- Footer  -->
+    <div id="footer-section" class="footer-section">
+      <div class="footer-wrapper">
+        <div class="footer-logo-section">
+          <a href="#" class="logo">LOGO</a>
+        </div>
+        <div class="footer-link-section">
+          <ul>
+            <li>Projects</li>
+            <li>About</li>
+            <li>NRI</li>
+            <li>Area</li>
+            <li>News & Thoughts</li>
+            <li>Employee Corner</li>
+            <li>CSR</li>
+            <li>Contact</li>
+            <li>Disclaimer</li>
+          </ul>
+        </div>
+        <div class="latest-news-section">
+          <p>Get the latest news</p>
+          <input type="text" placeholder="Enter email" />
+          <button>Subscribe</button>
+        </div>
+        <div class="to-the-top-section">
+          <img src="./assets/img/to-the-top.png" alt="to the top" />
+          <span>To the top</span>
+        </div>
+      </div>
+      <div class="footer-divider-section">
+        <span class="footer-divider"></span>
+      </div>
+      <div class="footer-bottom-section">
+        <p>An ISO 9001:2008 Certified Company</p>
+        <p>© copyrights 2019</p>
+        <img
+          src="./assets/img/social-icon.png"
+          alt="social-icon"
+          class="social-icon"
+        />
+      </div>
+    </div>
+    <div class="mobile-popup-box" id="mobile-popup-box">
+      <img
+        src="./assets/img/close-icon.png"
+        alt="close icon"
+        class="close-icon"
+      />
+      <div class="contact-us-form-input">
+        <input type="text" placeholder="Name" />
+        <input type="text" placeholder="Email Address" />
+        <input type="text" placeholder="Mobile Number" />
+        <span class="input-option" id="input-option">
+          <div class="dropdown">
+            <button></button>
+
+            <div class="options">
+              <input
+                id="radio-africa"
+                type="radio"
+                name="region"
+                value="africa"
+                checked
+              />
+              <label style="--index: 1" for="radio-africa">Query Type</label>
+
+              <input id="radio-asia" type="radio" name="region" value="asia" />
+              <label
+                style="--index: 2; background-color: #fafafa"
+                class="asiaa"
+                for="radio-asia"
+                onclick="myFunction()"
+                >Projects</label
+              >
+
+              <input
+                id="radio-australia"
+                type="radio"
+                name="region"
+                value="australia"
+              />
+              <label
+                style="--index: 3; background-color: #fafafa"
+                for="radio-australia"
+                >Media</label
+              >
+
+              <input
+                id="radio-europe"
+                type="radio"
+                name="region"
+                value="europe"
+              />
+              <label
+                style="--index: 4; background-color: #fafafa"
+                for="radio-europe"
+                >Career</label
+              >
+            </div>
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16.341"
+              height="12"
+              viewBox="0 0 16.341 12"
+            >
+              <defs>
+                <style>
+                  .a {
+                    fill: #3971b1;
+                  }
+                </style>
+              </defs>
+              <path class="a" d="M8.077,12,16.341,0H0Z" />
+            </svg>
+          </div>
+          <div id="add_message"></div>
+        </span>
+
+        <!-- <datalist id="languages">
+            <option value="Projects"></option>
+            <option value="Media"></option>
+            <option value="Career"></option>
+          </datalist> -->
+
+        <input type="submit" value="Send" class="send-btn" />
+      </div>
+    </div>
+    <!-- script js -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
